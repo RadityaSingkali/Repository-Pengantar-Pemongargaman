@@ -17,6 +17,14 @@ Di sini, $D$ adalah matriks yang semua elemennya nol, kecuali pada diagonal utam
 
 Syarat DiagonalisasiSebuah matriks $A$ berukuran $n \times n$ dapat didiagonalisasi jika dan hanya jika $A$ memiliki $n$ vektor eigen yang bebas linear.
 
+omponen Matriks P dan D
+Jika kita berhasil menemukan vektor eigen dan nilai eigen dari $A$:
+
+* Matriks $P$ (Matriks Modal): Kolom-kolomnya berisi vektor-vektor eigen dari $A$.
+
+* Matriks $D$: Elemen diagonal utamanya adalah nilai-nilai eigen ($\lambda$) yang bersesuaian dengan vektor eigen di $P$.
+
+
 ## 3. Sifat Invariant (Tidak Berubah)
 Bagian terpenting dari gambar tersebut adalah pembuktian bahwa Eigenvalues (nilai eigen) tidak berubah meskipun matriksnya telah ditransformasi.
 
