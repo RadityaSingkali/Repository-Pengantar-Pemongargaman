@@ -8,7 +8,7 @@ $$P^{-1}AP$$
 Dua matriks (misalnya $A$ dan $B$) dikatakan similar jika ada matriks nonsingular $P$ sedemikian rupa sehingga $B = P^{-1}AP$.
 Tujuan utama dari transformasi ini biasanya adalah untuk Diagonalisasi. Kita mencari matriks $P$ yang tepat sehingga hasil dari $P^{-1}AP$ menjadi matriks diagonal (matriks yang angkanya hanya ada di garis diagonal tengah). Matriks diagonal jauh lebih mudah dihitung dalam operasi matematika yang kompleks.
 
-## Sifat Invariant (Tidak Berubah)
+## 2. Sifat Invariant (Tidak Berubah)
 Bagian terpenting dari gambar tersebut adalah pembuktian bahwa Eigenvalues (nilai eigen) tidak berubah meskipun matriksnya telah ditransformasi.
 
 Dalam persamaan (1.2.22), ditunjukkan bahwa:
