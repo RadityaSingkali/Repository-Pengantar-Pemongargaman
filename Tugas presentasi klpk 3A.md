@@ -19,7 +19,7 @@ Dalam persamaan (1.2.22), ditunjukkan bahwa:
 
 
 
-# 77. Contoh dari Similarity Transformation and Diagonalization
+# Contoh dari Similarity Transformation and Diagonalization
 Misalkan kita memiliki matriks $A$:$$A = \begin{pmatrix} 1 & 2 \\ 2 & 1 \end{pmatrix}$$Tujuan kita adalah mencari matriks $P$ sedemikian rupa sehingga $P^{-1}AP = D$, di mana $D$ adalah matriks diagonal.
 
 ### Langkah 1: Mencari Eigenvalues ($\lambda$)Kita gunakan persamaan karakteristik: $\det(A - \lambda I) = 0$.
