@@ -58,4 +58,41 @@ $$D = \begin{pmatrix} 0.5 & 0.5 \\ 0.5 & -0.5 \end{pmatrix} \begin{pmatrix} 1 & 
 $$D = \begin{pmatrix} 3 & 0 \\ 0 & -1 \end{pmatrix}$$
 
 
+## Contoh penggunaan dalam python 
+```python
+import numpy as np
+
+A = np.array([[0, 2], 
+              [1, 1]])
+
+L_vals, V = np.linalg.eig(A)
+
+L = np.diag(L_vals)
+
+V_inv = np.linalg.inv(V)
+L1 = V_inv @ A @ V
+
+print("Matriks A:\n", A)
+print("\nModal Matrix (V):\n", V)
+print("\nEigenvalue Matrix (L):\n", L)
+print("\nHasil L1 (V^-1 * A * V):\n", L1)
+
+# Hasil dari pythonnya:
+Matriks A:
+ [[0 2]
+ [1 1]]
+
+Modal Matrix (V):
+ [[-0.89442719 -0.70710678]
+ [ 0.4472136  -0.70710678]]
+
+Eigenvalue Matrix (L):
+ [[-1.  0.]
+ [ 0.  2.]]
+
+Hasil L1 (V^-1 * A * V):
+ [[-1.00000000e+00  3.33066907e-16]
+ [ 0.00000000e+00  2.00000000e+00]]
+ ```
+
 
