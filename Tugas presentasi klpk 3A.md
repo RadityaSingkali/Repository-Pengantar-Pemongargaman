@@ -8,7 +8,16 @@ $$P^{-1}AP$$
 Dua matriks (misalnya $A$ dan $B$) dikatakan similar jika ada matriks nonsingular $P$ sedemikian rupa sehingga $B = P^{-1}AP$.
 Tujuan utama dari transformasi ini biasanya adalah untuk Diagonalisasi. Kita mencari matriks $P$ yang tepat sehingga hasil dari $P^{-1}AP$ menjadi matriks diagonal (matriks yang angkanya hanya ada di garis diagonal tengah). Matriks diagonal jauh lebih mudah dihitung dalam operasi matematika yang kompleks.
 
-## 2. Sifat Invariant (Tidak Berubah)
+## 2. Apa itu Diagonalization
+Diagonalisasi adalah kasus khusus dari Similarity Transformation di mana kita mencari matriks $P$ sehingga matriks hasil transformasinya ($D$) berbentuk matriks diagonal.
+
+$$D = P^{-1}AP$$
+
+Di sini, $D$ adalah matriks yang semua elemennya nol, kecuali pada diagonal utama.
+
+Syarat DiagonalisasiSebuah matriks $A$ berukuran $n \times n$ dapat didiagonalisasi jika dan hanya jika $A$ memiliki $n$ vektor eigen yang bebas linear.
+
+## 3. Sifat Invariant (Tidak Berubah)
 Bagian terpenting dari gambar tersebut adalah pembuktian bahwa Eigenvalues (nilai eigen) tidak berubah meskipun matriksnya telah ditransformasi.
 
 Dalam persamaan (1.2.22), ditunjukkan bahwa:
